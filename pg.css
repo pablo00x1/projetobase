@@ -83,6 +83,7 @@
 
 .bloco {
     padding: 40px 120px;
+    
     border: 1px solid #CCC;
 }
 
@@ -96,5 +97,98 @@
     font-weight: bold;
     font-family: 'poppins', sans-serif;
     letter-spacing: 2px;
+    transition: background .8s;
 }
+
+.bt a {
+    text-decoration: none;
+    color: white;
+
+}
+.bt:hover{
+    background: #29417c;
+    color: #48cafd;
+    text-decoration: none;
+   
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+    background:#dfecf4;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    border: 1px solid red;
+   
+
+}
+
+.footer ul {
+    list-style: none;
+    font-size: 14px;
+
+
+}
+
+.footer .titulo h2 {
+    font-size: 20px;
+
+}
+.footer .imgEd {
+    align-items: center;    
+
+}
+
+.redesSociais {
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+    justify-items: center;
+    padding: 20px
+}
+.redesSociais li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px;
+ 
+}
+
+.redesSociais ul li {
+    display: inline;
+    color: #48cafd;
+
+}
+.dir {
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: 'poppins', sans-serif;
+    align-items: center;
+    justify-items: center;
+    padding: 20px
+
+}
+
+
 
